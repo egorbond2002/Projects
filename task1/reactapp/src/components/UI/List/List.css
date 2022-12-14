@@ -1,0 +1,17 @@
+.title_view {
+    border: 5px solid rgb(24, 205, 229);
+    background-color: aquamarine;
+    height: 100px;
+    width: 300px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    text-align: center;
+    padding-top: 20px;
+}
+
+.list_blocks { 
+    display: grid;
+    grid-Template-Columns: repeat(3, 1fr);
+    gap: 16px;
+}
